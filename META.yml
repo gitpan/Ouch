@@ -15,4 +15,4 @@ name: Ouch
 resources:
   bugtracker: http://github.com/rizen/Ouch/issues
   repository: git://github.com/rizen/Ouch.git
-version: 0.0200
+version: 0.0300
