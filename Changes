@@ -1,3 +1,6 @@
+0.0401 - April 30, 2011
+ - beppu pointed out there was no $VERSION. Told Dist::Zilla to add that.
+
 0.0400 - April 30, 2011
  - Merged barf() from William Orr.
  - Added an export called ":trytiny" which exports throw(), caught(), and caught_all().

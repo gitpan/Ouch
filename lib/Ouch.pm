@@ -1,6 +1,9 @@
 use strict;
 use warnings;
 package Ouch;
+BEGIN {
+  $Ouch::VERSION = '0.0401';
+}
 use Carp qw(longmess shortmess);
 use parent 'Exporter';
 use overload bool => sub {1}, q{""} => 'scalar', fallback => 1;
@@ -130,6 +133,10 @@ sub data {
 =head1 NAME
 
 Ouch - Exceptions that don't hurt.
+
+=head1 VERSION
+
+version 0.0401
 
 =head1 SYNOPSIS
 
