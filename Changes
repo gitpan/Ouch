@@ -1,3 +1,7 @@
+0.0400 - April 30, 2011
+ - Merged barf() from William Orr.
+ - Added an export called ":trytiny" which exports throw(), caught(), and caught_all().
+
 0.0300 - April 14, 2011
  - Added hug() as a catch all.
 

@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -13,14 +13,17 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'JT Smith <jt@plainblack.com>',
   'BUILD_REQUIRES' => {},
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'Ouch',
   'EXE_FILES' => [],
   'LICENSE' => 'perl',
   'NAME' => 'Ouch',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.0300',
+  'PREREQ_PM' => {
+    'Test::More' => '0',
+    'Test::Trap' => '0'
+  },
+  'VERSION' => '0.0400',
   'test' => {
     'TESTS' => 't/*.t'
   }
