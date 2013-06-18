@@ -1,3 +1,9 @@
+0.0402 - June 18, 2013
+ - Fixed missing documentation for "barf".
+ - Depricated :traditional in favor of Try::Tiny.
+ - Documented rethrowing Ouches. 
+ - Added more docs for the :trytiny aliases
+
 0.0401 - April 30, 2011
  - beppu pointed out there was no $VERSION. Told Dist::Zilla to add that.
 
@@ -17,3 +23,4 @@
 
 0.0100 - April 13, 2011
  - Initial public release.
+
