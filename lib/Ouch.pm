@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Ouch;
 {
-  $Ouch::VERSION = '0.0402';
+  $Ouch::VERSION = '0.0403';
 }
 use Carp qw(longmess shortmess);
 use parent 'Exporter';
@@ -136,7 +136,7 @@ Ouch - Exceptions that don't hurt.
 
 =head1 VERSION
 
-version 0.0402
+version 0.0403
 
 =head1 SYNOPSIS
 
@@ -401,9 +401,9 @@ See C<kiss> for details.
 
 See C<hug> for details.
 
-=head1 DEPRICATED
+=head1 DEPRECATED
 
-This functionality is depreciated and will be removed in a future release. Use Try::Tiny instead.
+This functionality is deprecated and will be removed in a future release. Use Try::Tiny instead.
 
 =head2 Traditional Interface
 
