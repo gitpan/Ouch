@@ -19,4 +19,4 @@ requires:
 resources:
   bugtracker: http://github.com/rizen/Ouch/issues
   repository: git://github.com/rizen/Ouch.git
-version: 0.0404
+version: 0.0405

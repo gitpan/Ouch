@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Ouch;
 {
-  $Ouch::VERSION = '0.0404';
+  $Ouch::VERSION = '0.0405';
 }
 use Carp qw(longmess shortmess);
 use 5.012;
@@ -137,7 +137,7 @@ Ouch - Exceptions that don't hurt.
 
 =head1 VERSION
 
-version 0.0404
+version 0.0405
 
 =head1 SYNOPSIS
 
