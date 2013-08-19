@@ -2,9 +2,10 @@ use strict;
 use warnings;
 package Ouch;
 {
-  $Ouch::VERSION = '0.0403';
+  $Ouch::VERSION = '0.0404';
 }
 use Carp qw(longmess shortmess);
+use 5.012;
 use parent 'Exporter';
 use overload bool => sub {1}, q{""} => 'scalar', fallback => 1;
 
@@ -136,7 +137,7 @@ Ouch - Exceptions that don't hurt.
 
 =head1 VERSION
 
-version 0.0403
+version 0.0404
 
 =head1 SYNOPSIS
 
@@ -452,6 +453,11 @@ Works exactly like C<kiss>. See C<kiss> for details.
 =head3 catch_all
 
 Works exactly like C<hug>. See C<hug> for details.
+
+
+=head1 REQUIREMENTS
+
+Requires Perl 5.12 or higher.
 
 
 

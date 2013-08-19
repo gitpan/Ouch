@@ -15,7 +15,8 @@ name: Ouch
 requires:
   Test::More: 0
   Test::Trap: 0
+  perl: 5.012
 resources:
   bugtracker: http://github.com/rizen/Ouch/issues
   repository: git://github.com/rizen/Ouch.git
-version: 0.0403
+version: 0.0404
