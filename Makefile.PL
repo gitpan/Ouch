@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.012;
+
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -20,11 +20,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Ouch",
   "PREREQ_PM" => {
+    "Carp" => 0,
     "Test::More" => 0,
-    "Test::Trap" => 0
+    "Test::Trap" => 0,
+    "overload" => 0,
+    "parent" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.0405",
+  "VERSION" => "0.0406",
   "test" => {
     "TESTS" => "t/*.t"
   }
