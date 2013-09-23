@@ -9,3 +9,4 @@ lib/Ouch.pm
 t/Ouch.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+t/subclass.t
